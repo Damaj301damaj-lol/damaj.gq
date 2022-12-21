@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-us" xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>damaj.gq</title>
 		<link rel="stylesheet" href="../css/main.css">
-		<meta name="Other Sites!" content="Other sites i host">
+		// Embed bloat!!!!
+                <meta content="damaj.gq" property="og:title" />
+                <meta content="Other Sites i have!" property="og:description" />
+                <meta content="https://damaj.gq" property="og:url" />
+                <meta content="#FD7717" data-react-helmet="true" name="theme-color" />
 		
 	</head>
 	<body>

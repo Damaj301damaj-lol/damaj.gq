@@ -4,9 +4,12 @@
 		<meta charset="utf-8">
 		<title>damaj.gq</title>
 		<link rel="stylesheet" href="../css/main.css">
-		<meta name="Contact Info">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
+		// Embed bloat!!!!
+                <meta content="damaj.gq" property="og:title" />
+                <meta content="Contact Me!" property="og:description" />
+                <meta content="https://damaj.gq" property="og:url" />
+                <meta content="#FD7717" data-react-helmet="true" name="theme-color" />
 	</head>
 	<body>
 <center><?php include '/var/www/html/~mohamad/templates/header.php';  ?></center>

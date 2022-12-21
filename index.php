@@ -7,9 +7,9 @@
 		<link rel="icon" type="image/x-icon" href="/favicon.ico">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		// Embed bloat!!!!
-		<meta content="Damaj.gq" property="og:title" />
+		<meta content="damaj.gq" property="og:title" />
 		<meta content="My Personnal Website!" property="og:description" />
-    		<meta content="https://damaj.ga" property="og:url" />
+    		<meta content="https://damaj.gq" property="og:url" />
 		<meta content="#FD7717" data-react-helmet="true" name="theme-color" />
 	</head>
 	<body>
