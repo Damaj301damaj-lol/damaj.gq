@@ -5,9 +5,12 @@
 		<title>damaj.gq</title>
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="icon" type="image/x-icon" href="/favicon.ico">
-		<meta name="Damaj.gq" content="Welcome to the home of Damaj301damaj!">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
+		// Embed bloat!!!!
+		<meta content="Damaj.gq" property="og:title" />
+		<meta content="My Personnal Website!" property="og:description" />
+    		<meta content="https://damaj.ga" property="og:url" />
+		<meta content="#FD7717" data-react-helmet="true" name="theme-color" />
 	</head>
 	<body>
 <?php include '/var/www/html/~mohamad/templates/header.php' ; ?>
