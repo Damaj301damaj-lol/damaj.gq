@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-us" xmlns="http://www.w3.org/1999/xhtml">
 	<head>
+		<meta charset="utf-8">
 		<title>damaj.gq</title>
 		<link rel="stylesheet" href="../css/main.css">
-		<meta charset="utf-8">
 		<meta name="Contact Info">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 	</head>
 	<body>

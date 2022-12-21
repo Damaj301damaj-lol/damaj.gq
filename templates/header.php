@@ -1,4 +1,4 @@
-<a><span class="logo">damaj.gq</a> 
+<div class="logo">damaj.gq</div>
 <hr>
-<span class="links"> <a href=/index.php>[Home]</a> <span class="links"><a href=/site/contact.php>[Contact Me]</a> <span class="links"> <a href=/site/others.php>[Other Sites]</a>
+<div class="links">  <a href=/index.php>[Home]</a>  <a href=/site/contact.php>[Contact Me]</a> <a href=/site/others.php>[Other Sites]</a></div>
 <hr>

@@ -21,9 +21,14 @@ hr {
 }
 .logo {
 	font-size: 35pt;
+	text-align: center;
+	display: block;
+	color: #FFFFFF;
 }
 .links {
 	font-size: 10pt;
+	text-align: center;
+	display: block;
 }
 a {
 	color: #fd7717;

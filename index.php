@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-us" xmlns="http://www.w3.org/1999/xhtml">
 	<head>
+		<meta charset="utf-8">
 		<title>damaj.gq</title>
 		<link rel="stylesheet" href="css/main.css">
-		<meta charset="utf-8">
 		<link rel="icon" type="image/x-icon" href="/favicon.ico">
 		<meta name="Damaj.gq" content="Welcome to the home of Damaj301damaj!">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 	</head>
 	<body>
-<center><?php include '/var/www/html/~mohamad/templates/header.php' ; ?></center>
+<?php include '/var/www/html/~mohamad/templates/header.php' ; ?>
 		
         <div class="postContainer">
             <div class="post">
