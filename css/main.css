@@ -30,6 +30,11 @@ hr {
 	text-align: center;
 	display: block;
 }
+.code {
+	text-align: center;
+	display: block;
+	color: #ffffff;
+}
 a {
 	color: #fd7717;
 	text-decoration: none;

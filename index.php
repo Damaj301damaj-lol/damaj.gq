@@ -1,16 +1,17 @@
-<!DOCTYPE html>
-<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml">
+
 	<head>
 		<meta charset="utf-8">
-		<title>damaj.gq</title>
+		<title>damaj.gq - Personal Site!</title>
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="icon" type="image/x-icon" href="/favicon.ico">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		// Embed bloat!!!!
 		<meta content="damaj.gq" property="og:title" />
 		<meta content="My Personnal Website!" property="og:description" />
     		<meta content="https://damaj.gq" property="og:url" />
 		<meta content="#FD7717" data-react-helmet="true" name="theme-color" />
+		<meta name="msvalidate.01" content="603549558ED490A6863931BDED94963B" />
+		<meta http-equiv='content-language' content='en-LB'>
+		<meta name='description' content='Home of the Damaj301damaj guy, you probably know me, or not. but welcome, here i have a bunch of information and i use this for cool hosting purposes!'>
 	</head>
 	<body>
 <?php include '/var/www/html/~mohamad/templates/header.php' ; ?>

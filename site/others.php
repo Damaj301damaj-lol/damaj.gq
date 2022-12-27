@@ -5,7 +5,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>damaj.gq</title>
 		<link rel="stylesheet" href="../css/main.css">
-		// Embed bloat!!!!
                 <meta content="damaj.gq" property="og:title" />
                 <meta content="Other Sites i have!" property="og:description" />
                 <meta content="https://damaj.gq" property="og:url" />
