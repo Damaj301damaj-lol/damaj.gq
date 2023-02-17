@@ -1,4 +1,4 @@
-# damaj.gq
+# damaj.tech
 
 Source code of my website! 
 You MUST legally use the same license as me if you are willing to use/modify this website.

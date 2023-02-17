@@ -1,13 +1,13 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>damaj.gq - Personal Site!</title>
-		<link rel="stylesheet" href="css/main.css">
+		<title>damaj.tech - Personal Site!</title>
+		<link rel="stylesheet" href="css/main.css" type="text/css"> 
 		<link rel="icon" type="image/x-icon" href="/favicon.ico">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta content="damaj.gq" property="og:title" />
+		<meta content="damaj.tech" property="og:title" />
 		<meta content="My Personnal Website!" property="og:description" />
-    		<meta content="https://damaj.gq" property="og:url" />
+    		<meta content="https://damaj.tech" property="og:url" />
 		<meta content="#FD7717" data-react-helmet="true" name="theme-color" />
 		<meta name="msvalidate.01" content="603549558ED490A6863931BDED94963B" />
 		<meta http-equiv='content-language' content='en-LB'>
