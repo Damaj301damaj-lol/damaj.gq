@@ -3,7 +3,7 @@
 		<meta charset="utf-8">
 		<title>damaj.tech - Personal Site!</title>
 		<link rel="stylesheet" href="css/main.css" type="text/css"> 
-		<link rel="icon" type="image/x-icon" href="/favicon.ico">
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta content="damaj.tech" property="og:title" />
 		<meta content="My Personnal Website!" property="og:description" />
@@ -14,19 +14,18 @@
 		<meta name='description' content='Home of the Damaj301damaj guy, you probably know me, or not. but welcome, here i have a bunch of information and i use this for cool hosting purposes!'>
 	</head>
 	<body>
-<?php include '/var/www/html/~mohamad/templates/header.php' ; ?>
+<?php include 'templates/header.php' ; ?>
 		
         <div class="postContainer">
             <div class="post">
-		<h1>Welcome to my website!</h1>
-		<p>Note: Website's not finished!</p>
-		<h2>About</h2>
+		<b>Welcome to my website!</b>
+		<h1>About</h1>
 		<p>Hi!, my name is <b>Mohamad</b> (he/him). <br>
 		I like tinkering with stuff, particularly computers. <br>
 		I use Gentoo Linux on a low-end 2008ish PC rocking a Pentium Core 2 Duo E5200 and 4GB's of DDR2 800mhz RAM.<br>
 		I am also interested in Termux and emulators.<br></p>
 	    </div>
         </div>
-<?php include '/var/www/html/~mohamad/templates/footer.php'; ?>
+<?php include 'templates/footer.php'; ?>
 	</body>
 </html>
