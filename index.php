@@ -19,11 +19,15 @@
         <div class="postContainer">
             <div class="post">
 		<b>Welcome to my website!</b>
-		<h1>About</h1>
+		<h1>whoami?</h1>
 		<p>Hi!, my name is <b>Mohamad</b> (he/him). <br>
+		<h2>What do i do?</h2>
 		I like tinkering with stuff, particularly computers. <br>
+		<h3>What do i use?</h3>
 		I use Gentoo Linux on a low-end 2008ish PC rocking a Pentium Core 2 Duo E5200 and 4GB's of DDR2 800mhz RAM.<br>
-		I am also interested in Termux and emulators.<br></p>
+		<h4>What i am interested in?</h4>
+		I am interested in a lot of things, however i like to write code and waste my time, and use termux on my phone, etc :P.<br>
+		i am looking to do many modifications to this site, so its pretty currently pretty raw.</p>
 	    </div>
         </div>
 <?php include 'templates/footer.php'; ?>
