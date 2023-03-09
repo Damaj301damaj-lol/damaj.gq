@@ -1,10 +1,15 @@
 html {
+	font-family: monospace;
 	margin: auto;
 	width: 80%;
 	background-color: #131316;
 }
 b {
 	color: #ffffff;
+}
+middle {
+	text-align: center;
+	display: block;
 }
 body {
 	background-color: #1f2024;
@@ -23,6 +28,7 @@ hr {
 
 }
 .logo {
+	font-family: monospace;
 	font-size: 35pt;
 	text-align: center;
 	display: block;
@@ -30,8 +36,8 @@ hr {
 }
 .links {
 	font-size: 10pt;
+	vertical-align: middle;
 	text-align: center;
-	display: block;
 }
 .code {
 	text-align: center;
@@ -42,6 +48,10 @@ a {
 	color: #fd7717;
 	text-decoration: none;
 	transition: 0.1s;
+}
+
+img {
+	vertical-align: middle;
 }
 a:hover {
 	color: #89cff0;

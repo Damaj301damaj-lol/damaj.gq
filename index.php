@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta content="damaj.tech" property="og:title" />
 		<meta content="My Personnal Website!" property="og:description" />
-    		<meta content="https://damaj.tech" property="og:url" />
+    	<meta content="https://damaj.tech" property="og:url" />
 		<meta content="#FD7717" data-react-helmet="true" name="theme-color" />
 		<meta name="msvalidate.01" content="603549558ED490A6863931BDED94963B" />
 		<meta http-equiv='content-language' content='en-LB'>
