@@ -6,15 +6,17 @@
 		<link rel="stylesheet" href="/css/main.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
                 <meta content="damaj.tech" property="og:title" />
-                <meta content="Contact Me!" property="og:description" />
-                <meta content="https://damaj.tech/site/contact" property="og:url" />
+                <meta content="Blog!" property="og:description" />
+                <meta content="https://damaj.tech/sites/blog" property="og:url" />
                 <meta content="#FD7717" data-react-helmet="true" name="theme-color" />
 	</head>
 	<body>
 <?php include '/var/www/html/~mohamad/templates/header.php';  ?>
 
-		<p>If you ever need to contact me to chat or fix an issue, you can email me <a href="mailto:mohamad301damaj@duck.com">here</a> , or you can add me on Discord "Damaj301damaj#7279", It would be nice to talk :).</p>
-		<p>You may find me elsewhere too!</p>
+<p>uh</p>
+
+
+
 <?php include '/var/www/html/~mohamad/templates/footer.php' ; ?>
 	</body>
 </html>

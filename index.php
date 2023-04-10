@@ -28,6 +28,7 @@
 		<h4>What i am interested in?</h4>
 		<p>I am interested in a lot of things, however i like to write code and waste my time, and use termux on my phone, etc :P.</p>
 		<p>i am looking to do many modifications to this site, so its pretty currently pretty raw.</p>
+		<p>Consider checking my blog for some stories of mine.</p>
 	    </div>
         </div>
 <?php include 'templates/footer.php'; ?>
