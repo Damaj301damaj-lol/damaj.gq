@@ -3,11 +3,11 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>damaj.gq</title>
+		<title>damaj.tech</title>
 		<link rel="stylesheet" href="/css/main.css" type="text/css">
                 <meta content="damaj.tech" property="og:title" />
                 <meta content="Other Sites i have!" property="og:description" />
-                <meta content="https://damaj.tech" property="og:url" />
+                <meta content="https://damaj.tech/site/others" property="og:url" />
                 <meta content="#FD7717" data-react-helmet="true" name="theme-color" />
 		
 	</head>
