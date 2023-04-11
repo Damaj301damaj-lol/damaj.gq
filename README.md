@@ -1,7 +1,8 @@
 # damaj.tech
 
 Source code of my website! 
-You MUST legally use the same license as me if you are willing to use/modify this website.
-View: https://creativecommons.org/licenses/by-nc-sa/4.0/
+This site is libre!
 
 Contributors: Me and [Emily](https://git.donut.gq/emilyd)
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
