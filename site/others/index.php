@@ -12,6 +12,7 @@
 		
 	</head>
 	<body>
+	<div class="circle"></div>
 <?php include '/var/www/html/templates/header.php';  ?>
 
 		<h1>Checkout my other websites :D<h1>
