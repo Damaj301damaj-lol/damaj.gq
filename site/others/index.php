@@ -12,11 +12,11 @@
 		
 	</head>
 	<body>
-<?php include '/templates/header.php';  ?>
+<?php include '/var/www/html/templates/header.php';  ?>
 
 		<h1>Checkout my other websites :D<h1>
 		<p> <a href=https://free-wii-u.gq>free-wii-u.gq</a>
 		<p> <a href=https://soystemd.gq>soystemd.gq</a> </p>
-<?php include '/templates/footer.php' ; ?>
+<?php include '/var/www/html/templates/footer.php' ; ?>
 	</body>
 </html>
