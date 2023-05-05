@@ -3,14 +3,33 @@ html {
 	margin: auto;
 	width: 80%;
 	background-color: #131316;
+  	padding: 70px;
+  	max-width: 1000px;
+	height: 80vh;
+  	position: relative; /* Add this to allow absolute positioning of the circle element */
 }
 b {
 	color: #ffffff;
+	font-size: 15px;
 }
 middle {
 	text-align: center;
 	display: block;
 }
+.circle {
+	width: 80px;
+	height: 80px;
+	background-color: #000000;
+	border: 10px solid #1f2025;
+	border-radius: 50%;
+	position: absolute;
+	top: 5%; /* Adjust the top and left properties to position the circle */
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1; /* Set a higher z-index to ensure the circle appears on top of the square */
+	background-image: url("/img/d301d.png"); /* Add this line to set the image */
+	background-size: cover; /* Add this line to ensure the image covers the circle */
+  }
 body {
 	background-color: #1f2024;
 	box-shadow: 0px 0px 15px #000000;

@@ -1,4 +1,5 @@
-
+<!DOCTYPE html>
+	<html>
 	<head>
 		<meta charset="utf-8">
 		<title>damaj.tech - Personal Site!</title>
@@ -18,17 +19,15 @@
 		
         <div class="postContainer">
             <div class="post">
+			<div class="circle"></div>
 		<b>Welcome to my website!</b>
-		<h1>whoami?</h1>
 		<p>Hi!, my name is <b>Mohamad</b> (he/him). <br> </p>
-		<h2>What do i do?</h2>
+		<b>What do i do?</b>
 		<p>I like tinkering with stuff, particularly computers.</p>
-		<h3>What do i use?</h3>
-		<p>I use Gentoo Linux on a low-end 2008ish PC rocking a Pentium Core 2 Duo E5200 and 4GB's of DDR2 800mhz RAM. </p>
-		<h4>What i am interested in?</h4>
+		<b>What i am interested in?</b>
 		<p>I am interested in a lot of things, however i like to write code and waste my time, and use termux on my phone, etc :P.</p>
 		<p>i am looking to do many modifications to this site, so its pretty currently pretty raw.</p>
-		<p>Consider checking my blog for some stories of mine.</p>
+		<p>Consider checking my blog for some guides and stories of mine.</p>
 	    </div>
         </div>
 <?php include 'templates/footer.php'; ?>
