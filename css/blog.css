@@ -8,14 +8,7 @@ html {
 	height: 80vh;
   	position: relative; /* Add this to allow absolute positioning of the circle element */
 }
-b {
-	color: #ffffff;
-	font-size: 15px;
-}
-middle {
-	text-align: center;
-	display: block;
-}
+
 .circle {
 	width: 80px;
 	height: 80px;
@@ -29,7 +22,19 @@ middle {
 	z-index: 1; /* Set a higher z-index to ensure the circle appears on top of the square */
 	background-image: url("/img/d301d.png"); /* Add this line to set the image */
 	background-size: cover; /* Add this line to ensure the image covers the circle */
-  }
+}
+  .logo {
+	font-family: monospace;
+	font-size: 35pt;
+	text-align: center;
+	display: block;
+	color: #FFFFFF;
+}
+b {
+	color: #ffffff;
+	font-size: 15px;
+}
+
 body {
 	background-color: #1f2024;
 	box-shadow: 0px 0px 15px #000000;
@@ -46,13 +51,7 @@ hr {
 	border-top: none;
 
 }
-.logo {
-	font-family: monospace;
-	font-size: 35pt;
-	text-align: center;
-	display: block;
-	color: #FFFFFF;
-}
+
 .links {
 	font-size: 10pt;
 	vertical-align: middle;
@@ -63,6 +62,15 @@ hr {
 	display: block;
 	color: #ffffff;
 }
+
+.article-box {
+    border: 5px solid #fd7717;
+    padding: 10px;
+    margin-bottom: 20px;
+	background-color: #1f2024;
+	box-shadow: 0px 0px 15px #000000;
+}
+
 a {
 	color: #fd7717;
 	text-decoration: none;

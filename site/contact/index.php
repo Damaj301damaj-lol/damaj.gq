@@ -11,10 +11,10 @@
                 <meta content="#FD7717" data-react-helmet="true" name="theme-color" />
 	</head>
 	<body>
-<?php include '/var/www/html/templates/header.php';  ?>
+<?php include '/templates/header.php';  ?>
         <div class="circle"></div>
 		<p>If you ever need to contact me to chat or fix an issue, you can email me <a href="mailto:mohamad301damaj@duck.com">here</a> , or you can chat with me on <a href="https://matrix.to/#/@mohamad%2fdamaj.tech">Matrix!</a>, It would be nice to talk :).</p>
 		<p>You may find me elsewhere too!</p>
-<?php include '/var/www/html/templates/footer.php' ; ?>
+<?php include '/templates/footer.php' ; ?>
 	</body>
 </html>
