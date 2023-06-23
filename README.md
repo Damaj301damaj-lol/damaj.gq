@@ -10,3 +10,4 @@ Contributors: Me and [Emily](https://git.donut.gq/emilyd)
 # Why is it 300MB?
 The commits are 300MB in total, if you are looking to `git clone` this site, i recommend using `--depth 1`. 
 These commits exist for historical reasons.
+
