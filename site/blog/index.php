@@ -11,12 +11,12 @@
                 <meta content="#FD7717" data-react-helmet="true" name="theme-color" />
 	</head>
 	<body>
-    <?php include '/var/www/beta/templates/header.php'?>
+    <?php include '/var/www/html/templates/header.php'?>
     <div class="circle"></div>
     <p> NOTE: for people who want to use an RSS reader, here is the <a href='rss.xml'>rss.xml</a></p>
 <?php
 // Define the RSS feed URL
-$feed = '/var/www/beta/site/blog/rss.xml';
+$feed = '/var/www/html/site/blog/rss.xml';
 
 // Parse the XML
 $xml = simplexml_load_file($feed);
@@ -56,6 +56,6 @@ foreach ($xml->channel->item as $item) {
     echo '</div>';
 }
 ?>
-<?php include '/var/www/beta/templates/footer.php'?>
+<?php include '/var/www/html/templates/footer.php'?>
 	</body>
 </html>
