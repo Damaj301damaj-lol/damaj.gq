@@ -15,7 +15,6 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 ?>
-<?php phpinfo() ?>
     <?php include '/var/www/beta/templates/header.php'?>
     <div class="circle"></div>
     <p> NOTE: for people who want to use an RSS reader, here is the <a href='rss.xml'>rss.xml</a></p>
