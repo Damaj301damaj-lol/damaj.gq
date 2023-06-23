@@ -32,8 +32,18 @@ foreach ($xml->channel->item as $item) {
     // Split the content into sentences
     $sentences = preg_split('/(?<=[.?!])\s+(?=[a-z])/i', $item->description);
     
-    // Add all the sentences of the content
-    $preview = implode(' ', $sentences);
+    // Extract the first 5 sentences of the content
+    $preview = implode(' ', array_slice($sentences, 0, 5));
+    
+    // Add three dots at the end of the preview, if necessary
+    if (count($sentences) > 5) {
+        $last_char = substr($preview, -1);
+        if ($last_char != '.') {
+            $preview .= '...';
+        } else {
+            $preview .= '..';
+        }
+    }
     
     echo $preview;
     
@@ -42,7 +52,7 @@ foreach ($xml->channel->item as $item) {
         echo '<br><a href="' . $item->link . '">Read more</a>';
     }
     
-    // Close the box around the article
+    // Close the box around the post
     echo '</div>';
 }
 ?>
