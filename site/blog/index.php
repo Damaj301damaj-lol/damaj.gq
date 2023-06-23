@@ -16,7 +16,7 @@
     <p> NOTE: for people who want to use an RSS reader, here is the <a href='rss.xml'>rss.xml</a></p>
 <?php
 // Define the RSS feed URL
-$feed = 'rss.xml';
+$feed = 'https://beta.damaj.tech/site/blog/rss.xml';
 
 // Parse the XML
 $xml = simplexml_load_file($feed);
