@@ -26,7 +26,9 @@ $items = iterator_to_array($xml->channel->item);
 
 // Sort the items by pubDate
 usort($items, function($a, $b) {
-    return strtotime($b->pubDate) - strtotime($a->pubDate);
+    $a_time = DateTime::createFromFormat('D, d M Y H:i:s O', $a->pubDate)->getTimestamp();
+    $b_time = DateTime::createFromFormat('D, d M Y H:i:s O', $b->pubDate)->getTimestamp();
+    return $b_time - $a_time;
 });
 
 // Loop through the sorted items and display them
@@ -34,8 +36,9 @@ foreach ($items as $item) {
     // Add a box around the article
     echo '<div class="article-box">';
     
-    // Highlight the title
+    // Highlight the title and date
     echo '<h2>' . $item->title . '</h2>';
+    echo '<p>' . date('F j, Y', strtotime($item->pubDate)) . '</p>';
     
     // Split the content into sentences
     $sentences = preg_split('/(?<=[.?!])\s+(?=[a-z])/i', $item->description);
