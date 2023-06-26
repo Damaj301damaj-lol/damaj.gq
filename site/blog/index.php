@@ -21,8 +21,16 @@ $feed = '/var/www/html/site/blog/rss.xml';
 // Parse the XML
 $xml = simplexml_load_file($feed);
 
-// Loop through the items and display them
-foreach ($xml->channel->item as $item) {
+// Get all items as an array
+$items = iterator_to_array($xml->channel->item);
+
+// Sort the items by pubDate
+usort($items, function($a, $b) {
+    return strtotime($b->pubDate) - strtotime($a->pubDate);
+});
+
+// Loop through the sorted items and display them
+foreach ($items as $item) {
     // Add a box around the article
     echo '<div class="article-box">';
     
