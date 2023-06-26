@@ -33,6 +33,8 @@ usort($items, function($a, $b) {
 
 // Loop through the sorted items and display them
 foreach ($items as $item) {
+    // Debugging
+    echo $item->pubDate . ' => ' . strtotime($item->pubDate) . '<br>';
     // Add a box around the article
     echo '<div class="article-box">';
     
