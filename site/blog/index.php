@@ -30,11 +30,13 @@ usort($items, function($a, $b) {
     $b_time = DateTime::createFromFormat('D, d M Y H:i:s O', $b->pubDate)->getTimestamp();
     return $b_time - $a_time;
 });
-
-// Loop through the sorted items and display them
+// Debugging 
 foreach ($items as $item) {
     // Debugging
     echo $item->pubDate . ' => ' . strtotime($item->pubDate) . '<br>';
+}
+// Loop through the sorted items and display them
+foreach ($items as $item) {
     // Add a box around the article
     echo '<div class="article-box">';
     
