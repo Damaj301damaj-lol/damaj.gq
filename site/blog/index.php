@@ -26,9 +26,9 @@ $items = iterator_to_array($xml->channel->item);
 
 // Sort the items by pubDate
 usort($items, function($a, $b) {
-    $a_time = DateTime::createFromFormat('D, d M Y H:i:s O', $a->pubDate)->getTimestamp();
-    $b_time = DateTime::createFromFormat('D, d M Y H:i:s O', $b->pubDate)->getTimestamp();
-    return $b_time - $a_time;
+    $a_time = strtotime($a->pubDate);
+    $b_time = strtotime($b->pubDate);
+    return $a_time - $b_time;
 });
 // Debugging 
 foreach ($items as $item) {
