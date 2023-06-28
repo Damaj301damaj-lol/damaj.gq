@@ -26,15 +26,9 @@ $items = iterator_to_array($xml->channel->item);
 
 // Sort the items by pubDate
 usort($items, function($a, $b) {
-    $a_time = strtotime($a->pubDate);
-    $b_time = strtotime($b->pubDate);
-    return $a_time - $b_time;
+return strcmp($a->pubDate, $b->pubDate);
 });
-// Debugging 
-foreach ($items as $item) {
-    // Debugging
-    echo $item->pubDate . ' => ' . strtotime($item->pubDate) . '<br>';
-}
+
 // Loop through the sorted items and display them
 foreach ($items as $item) {
     // Add a box around the article
