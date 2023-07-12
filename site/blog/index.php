@@ -24,12 +24,7 @@ $xml = simplexml_load_file($feed);
 // Get all items as an array
 $items = iterator_to_array($xml->channel->item);
 
-// Sort the items by pubDate
-usort($items, function($a, $b) {
-return strcmp($a->pubDate, $b->pubDate);
-});
-
-// Loop through the sorted items and display them
+// Loop through the items and display them
 foreach ($items as $item) {
     // Add a box around the article
     echo '<div class="article-box">';
