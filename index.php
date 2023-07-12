@@ -27,6 +27,7 @@
 		<b>What i am interested in?</b>
 		<p>I am interested in a lot of things, however i like to write code and waste my time, and use termux on my phone, etc :P.</p>
 		<p>i am looking to do many modifications to this site, so its pretty currently pretty raw.</p>
+		<a rel="me" href="https://vmst.io/@damaj301damaj">I am also on Mastodon!</a>
 		<p>Consider checking my blog for some guides and stories of mine.</p>
 	    </div>
         </div>
