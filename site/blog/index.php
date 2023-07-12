@@ -24,6 +24,9 @@ $xml = simplexml_load_file($feed);
 // Get all items as an array
 $items = iterator_to_array($xml->channel->item);
 
+// Reverse the order of the items so that the latest post is displayed first
+$items = array_reverse($items);
+
 // Loop through the items and display them
 foreach ($items as $item) {
     // Add a box around the article
