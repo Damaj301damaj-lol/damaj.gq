@@ -14,27 +14,20 @@
     <?php include '/var/www/html/templates/header.php'?>
     <div class="circle"></div>
     <p> NOTE: for people who want to use an RSS reader, here is the <a href='rss.xml'>rss.xml</a></p>
-<?php
+    <?php
 // Define the RSS feed URL
 $feed = '/var/www/html/site/blog/rss.xml';
 
 // Parse the XML
 $xml = simplexml_load_file($feed);
 
-// Get all items as an array
-$items = iterator_to_array($xml->channel->item);
-
-// Reverse the order of the items so that the latest post is displayed first
-$items = array_reverse($items);
-
 // Loop through the items and display them
-foreach ($items as $item) {
+foreach ($xml->channel->item as $item) {
     // Add a box around the article
     echo '<div class="article-box">';
     
-    // Highlight the title and date
+    // Highlight the title
     echo '<h2>' . $item->title . '</h2>';
-    echo '<p>' . date('F j, Y', strtotime($item->pubDate)) . '</p>';
     
     // Split the content into sentences
     $sentences = preg_split('/(?<=[.?!])\s+(?=[a-z])/i', $item->description);
