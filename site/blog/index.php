@@ -55,6 +55,8 @@ foreach ($xml->channel->item as $item) {
     // Close the box around the post
     echo '</div>';
 }
+
+// Written on September 22, 2021
 ?>
 <?php include '/var/www/html/templates/footer.php'?>
 	</body>
