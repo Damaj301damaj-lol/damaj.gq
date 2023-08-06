@@ -1,3 +1,5 @@
+# This repo will be archived and will be moved to https://git.damaj.tech/Damaj301damaj/damaj.tech!
+
 # damaj.tech
 
 Source code of my website! 
